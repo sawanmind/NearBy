@@ -16,7 +16,7 @@ final class VenuesViewModel: ObservableObject {
     @Published var distanceFilter: Double = 5.0 {
         didSet {
             if let location = self.location {
-                self.fetchVenues(lat: location.latitude, lon: location.longitude, reset: true)
+                self.fetchVenues(latitude: location.latitude, longitude: location.longitude, reset: true)
             }
         }
     }
@@ -32,7 +32,7 @@ final class VenuesViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     private var locationService: LocationService?
-    private var location: Location?
+    var location: Location?
     
     private var currentPage = 1
     private(set) var canLoadMorePages = true
@@ -68,7 +68,7 @@ final class VenuesViewModel: ObservableObject {
         }
     }
     
-    private func fetchVenues(lat: Double, lon: Double, page: Int = 1, reset: Bool = false) {
+    func fetchVenues(latitude: Double, longitude: Double, page: Int = 1, reset: Bool = false) {
         if isLoading || !canLoadMorePages {
             return
         }
@@ -83,7 +83,7 @@ final class VenuesViewModel: ObservableObject {
         isLoading = true
         errorMessage = nil
       
-        venueService.fetchVenues(lat: lat, lon: lon, range: "\(Int(distanceFilter))mi", page: page)
+        venueService.fetchVenues(lat: latitude, lon: longitude, range: "\(Int(distanceFilter))mi", page: page)
             .receive(on: DispatchQueue.main)
             .sink { [weak self] completion in
                 self?.isLoading = false
@@ -112,7 +112,7 @@ final class VenuesViewModel: ObservableObject {
     
     func loadNextPage() {
         if let location = self.location {
-            fetchVenues(lat: location.latitude, lon: location.longitude, page: currentPage)
+            fetchVenues(latitude: location.latitude, longitude: location.longitude, page: currentPage)
         }
     }
     
@@ -125,7 +125,7 @@ final class VenuesViewModel: ObservableObject {
 extension VenuesViewModel: LocationManagerDelegate {
     func didUpdateLocation(_ location: Location) {
         self.location = location
-        self.fetchVenues(lat: location.latitude, lon: location.longitude)
+        self.fetchVenues(latitude: location.latitude, longitude: location.longitude)
     }
     
     func didFailWithError(_ error: LocationError) {

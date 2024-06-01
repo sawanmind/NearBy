@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CacheService {
+class CacheService {
     private let cacheFileName = "cachedVenues.json"
     
     func saveVenuesToCache(_ venues: [Venue]) throws {
