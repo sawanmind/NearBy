@@ -19,6 +19,8 @@
 		21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */; };
 		21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E022C0ADF6E006370A9 /* LocationService.swift */; };
 		21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E072C0ADFA3006370A9 /* Venue.swift */; };
+		21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E092C0ADFCB006370A9 /* CacheError.swift */; };
+		21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerProtocol.swift; sourceTree = "<group>"; };
 		21EF2E022C0ADF6E006370A9 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		21EF2E072C0ADFA3006370A9 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		21EF2E092C0ADFCB006370A9 /* CacheError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheError.swift; sourceTree = "<group>"; };
+		21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +198,8 @@
 		21EF2DFD2C0ADF33006370A9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E092C0ADFCB006370A9 /* CacheError.swift */,
+				21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -337,11 +343,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
+				21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */,
 				21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */,
 				21EF2DD02C0ADE6C006370A9 /* ContentView.swift in Sources */,
 				21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */,
 				21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */,
 				21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */,
+				21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */,
 				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
