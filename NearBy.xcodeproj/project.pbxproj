@@ -14,6 +14,10 @@
 		21EF2DDF2C0ADE6E006370A9 /* NearByTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DDE2C0ADE6E006370A9 /* NearByTests.swift */; };
 		21EF2DE92C0ADE6E006370A9 /* NearByUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DE82C0ADE6E006370A9 /* NearByUITests.swift */; };
 		21EF2DEB2C0ADE6E006370A9 /* NearByUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DEA2C0ADE6E006370A9 /* NearByUITestsLaunchTests.swift */; };
+		21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DFF2C0ADF6E006370A9 /* LocationError.swift */; };
+		21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E002C0ADF6E006370A9 /* LocationCoreManager.swift */; };
+		21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */; };
+		21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E022C0ADF6E006370A9 /* LocationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		21EF2DE42C0ADE6E006370A9 /* NearByUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearByUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EF2DE82C0ADE6E006370A9 /* NearByUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByUITests.swift; sourceTree = "<group>"; };
 		21EF2DEA2C0ADE6E006370A9 /* NearByUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21EF2DFF2C0ADF6E006370A9 /* LocationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
+		21EF2E002C0ADF6E006370A9 /* LocationCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCoreManager.swift; sourceTree = "<group>"; };
+		21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerProtocol.swift; sourceTree = "<group>"; };
+		21EF2E022C0ADF6E006370A9 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,10 @@
 		21EF2DF82C0ADF03006370A9 /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E002C0ADF6E006370A9 /* LocationCoreManager.swift */,
+				21EF2DFF2C0ADF6E006370A9 /* LocationError.swift */,
+				21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */,
+				21EF2E022C0ADF6E006370A9 /* LocationService.swift */,
 			);
 			path = LocationManager;
 			sourceTree = "<group>";
@@ -321,8 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
+				21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */,
 				21EF2DD02C0ADE6C006370A9 /* ContentView.swift in Sources */,
 				21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */,
+				21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */,
+				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
