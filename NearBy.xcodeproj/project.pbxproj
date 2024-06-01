@@ -18,6 +18,7 @@
 		21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E002C0ADF6E006370A9 /* LocationCoreManager.swift */; };
 		21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */; };
 		21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E022C0ADF6E006370A9 /* LocationService.swift */; };
+		21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E072C0ADFA3006370A9 /* Venue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		21EF2E002C0ADF6E006370A9 /* LocationCoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCoreManager.swift; sourceTree = "<group>"; };
 		21EF2E012C0ADF6E006370A9 /* LocationManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManagerProtocol.swift; sourceTree = "<group>"; };
 		21EF2E022C0ADF6E006370A9 /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		21EF2E072C0ADFA3006370A9 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 		21EF2DFE2C0ADF3A006370A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E072C0ADFA3006370A9 /* Venue.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
 				21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */,
 				21EF2DD02C0ADE6C006370A9 /* ContentView.swift in Sources */,
+				21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */,
 				21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */,
 				21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */,
 				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
