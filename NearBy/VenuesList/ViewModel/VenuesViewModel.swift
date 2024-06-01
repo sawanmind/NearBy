@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import UIKit
 
 final class VenuesViewModel: ObservableObject {
     @Published var venues: [Venue] = []
@@ -118,6 +119,12 @@ final class VenuesViewModel: ObservableObject {
     
     func requestLocation() {
         locationService?.fetchCurrentLocation(delegate: self)
+    }
+    
+    func openLinks(url: String?) {
+        if let url = URL(string: url ?? "") {
+            UIApplication.shared.open(url)
+        }
     }
     
 }

@@ -35,9 +35,7 @@ struct VenueListView: View {
                                 Text(venue.address ?? "")
                             }
                             .onTapGesture {
-                                if let url = URL(string: venue.url ?? "") {
-                                    UIApplication.shared.open(url)
-                                }
+                                self.viewModel.openLinks(url: venue.url)
                             }
                         }
                         
