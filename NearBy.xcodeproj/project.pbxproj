@@ -21,6 +21,9 @@
 		21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E072C0ADFA3006370A9 /* Venue.swift */; };
 		21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E092C0ADFCB006370A9 /* CacheError.swift */; };
 		21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */; };
+		21EF2E102C0ADFFB006370A9 /* VenueServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0D2C0ADFFB006370A9 /* VenueServiceConstant.swift */; };
+		21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */; };
+		21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		21EF2E072C0ADFA3006370A9 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		21EF2E092C0ADFCB006370A9 /* CacheError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheError.swift; sourceTree = "<group>"; };
 		21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheService.swift; sourceTree = "<group>"; };
+		21EF2E0D2C0ADFFB006370A9 /* VenueServiceConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceConstant.swift; sourceTree = "<group>"; };
+		21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
+		21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +204,9 @@
 		21EF2DFD2C0ADF33006370A9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */,
+				21EF2E0D2C0ADFFB006370A9 /* VenueServiceConstant.swift */,
+				21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */,
 				21EF2E092C0ADFCB006370A9 /* CacheError.swift */,
 				21EF2E0A2C0ADFCB006370A9 /* CacheService.swift */,
 			);
@@ -342,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */,
 				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
 				21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */,
 				21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */,
@@ -349,6 +359,8 @@
 				21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */,
 				21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */,
 				21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */,
+				21EF2E102C0ADFFB006370A9 /* VenueServiceConstant.swift in Sources */,
+				21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */,
 				21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */,
 				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
 			);
