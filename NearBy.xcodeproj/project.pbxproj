@@ -24,6 +24,7 @@
 		21EF2E102C0ADFFB006370A9 /* VenueServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0D2C0ADFFB006370A9 /* VenueServiceConstant.swift */; };
 		21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */; };
 		21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */; };
+		21EF2E142C0AE02A006370A9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E132C0AE02A006370A9 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		21EF2E0D2C0ADFFB006370A9 /* VenueServiceConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceConstant.swift; sourceTree = "<group>"; };
 		21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
 		21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceError.swift; sourceTree = "<group>"; };
+		21EF2E132C0AE02A006370A9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		21EF2DF72C0ADEF9006370A9 /* Common + Views */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E132C0AE02A006370A9 /* SearchBar.swift */,
 			);
 			path = "Common + Views";
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21EF2E142C0AE02A006370A9 /* SearchBar.swift in Sources */,
 				21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */,
 				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
 				21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */,
