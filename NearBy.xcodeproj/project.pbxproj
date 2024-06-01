@@ -25,6 +25,7 @@
 		21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */; };
 		21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */; };
 		21EF2E142C0AE02A006370A9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E132C0AE02A006370A9 /* SearchBar.swift */; };
+		21EF2E162C0AE04D006370A9 /* VenuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E152C0AE04D006370A9 /* VenuesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		21EF2E0E2C0ADFFB006370A9 /* VenueService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueService.swift; sourceTree = "<group>"; };
 		21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceError.swift; sourceTree = "<group>"; };
 		21EF2E132C0AE02A006370A9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		21EF2E152C0AE04D006370A9 /* VenuesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 		21EF2DFC2C0ADF2C006370A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E152C0AE04D006370A9 /* VenuesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				21EF2E102C0ADFFB006370A9 /* VenueServiceConstant.swift in Sources */,
 				21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */,
 				21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */,
+				21EF2E162C0AE04D006370A9 /* VenuesViewModel.swift in Sources */,
 				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
