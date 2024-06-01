@@ -2,7 +2,7 @@
 //  NearByApp.swift
 //  NearBy
 //
-//  Created by bAI on 01/06/24.
+//  Created by Sawan Kumar on 01/06/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct NearByApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VenueListView()
         }
     }
 }

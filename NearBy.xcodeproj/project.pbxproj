@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DCD2C0ADE6C006370A9 /* NearByApp.swift */; };
-		21EF2DD02C0ADE6C006370A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DCF2C0ADE6C006370A9 /* ContentView.swift */; };
 		21EF2DD22C0ADE6E006370A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EF2DD12C0ADE6E006370A9 /* Assets.xcassets */; };
 		21EF2DD52C0ADE6E006370A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EF2DD42C0ADE6E006370A9 /* Preview Assets.xcassets */; };
 		21EF2DDF2C0ADE6E006370A9 /* NearByTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2DDE2C0ADE6E006370A9 /* NearByTests.swift */; };
@@ -26,6 +25,7 @@
 		21EF2E122C0ADFFB006370A9 /* VenueServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */; };
 		21EF2E142C0AE02A006370A9 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E132C0AE02A006370A9 /* SearchBar.swift */; };
 		21EF2E162C0AE04D006370A9 /* VenuesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E152C0AE04D006370A9 /* VenuesViewModel.swift */; };
+		21EF2E182C0AE0A7006370A9 /* VenueListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF2E172C0AE0A7006370A9 /* VenueListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,6 @@
 /* Begin PBXFileReference section */
 		21EF2DCA2C0ADE6C006370A9 /* NearBy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EF2DCD2C0ADE6C006370A9 /* NearByApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByApp.swift; sourceTree = "<group>"; };
-		21EF2DCF2C0ADE6C006370A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21EF2DD12C0ADE6E006370A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21EF2DD42C0ADE6E006370A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		21EF2DDA2C0ADE6E006370A9 /* NearByTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearByTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +67,7 @@
 		21EF2E0F2C0ADFFB006370A9 /* VenueServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueServiceError.swift; sourceTree = "<group>"; };
 		21EF2E132C0AE02A006370A9 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		21EF2E152C0AE04D006370A9 /* VenuesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesViewModel.swift; sourceTree = "<group>"; };
+		21EF2E172C0AE0A7006370A9 /* VenueListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,6 @@
 				21EF2DF92C0ADF0A006370A9 /* VenuesList */,
 				21EF2DF82C0ADF03006370A9 /* LocationManager */,
 				21EF2DF72C0ADEF9006370A9 /* Common + Views */,
-				21EF2DCF2C0ADE6C006370A9 /* ContentView.swift */,
 				21EF2DD12C0ADE6E006370A9 /* Assets.xcassets */,
 				21EF2DD32C0ADE6E006370A9 /* Preview Content */,
 			);
@@ -195,6 +194,7 @@
 		21EF2DFB2C0ADF27006370A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				21EF2E172C0AE0A7006370A9 /* VenueListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -362,7 +362,6 @@
 				21EF2E032C0ADF6E006370A9 /* LocationError.swift in Sources */,
 				21EF2E0B2C0ADFCB006370A9 /* CacheError.swift in Sources */,
 				21EF2E042C0ADF6E006370A9 /* LocationCoreManager.swift in Sources */,
-				21EF2DD02C0ADE6C006370A9 /* ContentView.swift in Sources */,
 				21EF2E082C0ADFA3006370A9 /* Venue.swift in Sources */,
 				21EF2DCE2C0ADE6C006370A9 /* NearByApp.swift in Sources */,
 				21EF2E062C0ADF6E006370A9 /* LocationService.swift in Sources */,
@@ -370,6 +369,7 @@
 				21EF2E112C0ADFFB006370A9 /* VenueService.swift in Sources */,
 				21EF2E0C2C0ADFCB006370A9 /* CacheService.swift in Sources */,
 				21EF2E162C0AE04D006370A9 /* VenuesViewModel.swift in Sources */,
+				21EF2E182C0AE0A7006370A9 /* VenueListView.swift in Sources */,
 				21EF2E052C0ADF6E006370A9 /* LocationManagerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
